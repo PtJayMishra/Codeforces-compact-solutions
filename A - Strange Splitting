@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class a {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int t = in.nextInt();
+        for (int i = 0; i < t; i++) {
+            int n = in.nextInt();
+            int[] array = new int[n];
+            for (int j = 0; j < n; j++) {
+                array[j] = in.nextInt();
+            }
+            for (int j = 0; j < 1; j++) {
+                if (array[0] == array[n - 1]) {
+                    System.out.println("NO");
+                } else {
+                        System.out.println("YES");
+                        System.out.print("R");
+                    System.out.print("B");
+                        for (int k = 2; k < n ; k++) {
+                            System.out.print("R");
+
+                        }
+                    System.out.println(" ");
+                    }
+                    }
+                }
+
+            }
+}
